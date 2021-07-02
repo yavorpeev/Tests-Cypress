@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity": false,
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 20000,
+  "pageLoadTimeout": 120000,
+  "numTestsKeptInMemory": 1,
+  "retries": 3,
+
+  "projectId": "r6pbjz",
+
+  "viewportWidth": 1300,
+  "viewportHeight": 900,
+
+  "supportFile": "cypress/support/index.ts"
+}
+
