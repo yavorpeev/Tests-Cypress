@@ -9,18 +9,8 @@
 // ***********************************************
 
 
-export const SomeFruitsList =
-  [ " Lemons ",
-    " Raspberries ",
-    " Strawberries ",
-    " Blackberries ",
-    " Kiwis ",
-    " Grapefruit ",
-    " Avocado ",
-    " Watermelon ",
-    " Cantaloupe ",
-    " Oranges ",
-    " Peaches " ]
+
+
 //
 //
 // -- This is a parent command --

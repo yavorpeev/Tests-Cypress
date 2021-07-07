@@ -2,10 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "node"],
+    "types": ["cypress", "node", "cypress-file-upload", "@applitools/eyes-cypress", "cypress-plugin-tab"],
     "moduleResolution": "node",
     "outDir": "build"
 
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts"],
+
 }

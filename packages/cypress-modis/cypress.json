@@ -3,10 +3,10 @@
   "watchForFileChanges": false,
   "defaultCommandTimeout": 20000,
   "pageLoadTimeout": 120000,
-  "numTestsKeptInMemory": 1,
+  "numTestsKeptInMemory": 0,
   "retries": 3,
 
-  "projectId": "r6pbjz",
+  "projectId": "p76r5o",
 
   "viewportWidth": 1300,
   "viewportHeight": 900,
