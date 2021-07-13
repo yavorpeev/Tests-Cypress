@@ -58,7 +58,7 @@ describe("Features Tests", () => {
     it('Form Layouts Submitting', () => {
       onFormLayoutsPage.submitInlineFormWithNameAndEmail('Yavor Peev', 'modistest@italy-belgium.com')
       onFormLayoutsPage.submitBasicFormWithEmailAndPassword('modistest@euro2020.com', 'password')
-      onFormLayoutsPage.signInUsingtheGridFormWithEmailandPassword('modistest@midnight.com', 'password')
+      onFormLayoutsPage.signInUsingTheGridFormWithEmailAndPassword('modistest@midnight.com', 'password')
     })
   })
   context('Toastr', () => {
@@ -120,6 +120,9 @@ describe("Features Tests", () => {
             .tab().type('johnnyb')
             .tab().type('johnnyb@modis.com')
             .tab().type('50{enter}')
+          cy.get('tbody').contains('tr', 'Johnny').then(tableRow => {
+            cy.wrap(tableRow).find('.nb-trash').click()
+          })
         })
       })
       context('Auth testing', () => {

@@ -41,10 +41,8 @@ describe("General Tests", () => {
     })
   })
   context('Navigate to Backend Integration', () => {
-    beforeEach(() => {
-      cy.get('a[class*="ng-tns-c115-2"]').contains('Backend Integration').click()
-    })
     it('Select Backend Integration Options', () => {
+      cy.get('a[class*="ng-tns-c115-2"]').contains('Backend Integration').click()
       cy.get('a[class*="ng-tns-c115-6"]').contains('Java').click()
       cy.get('a[class*="ng-tns-c115-3"]').contains('PHP').click()
       cy.get('a[class*="ng-tns-c115-5"]').contains('Node JS').click()

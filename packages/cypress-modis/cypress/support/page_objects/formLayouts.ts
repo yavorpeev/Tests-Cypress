@@ -12,7 +12,7 @@ export class FormLayoutsPage{
     })
   }
 
-  signInUsingtheGridFormWithEmailandPassword(email, password){
+  signInUsingTheGridFormWithEmailAndPassword(email, password){
     cy.contains('nb-card', 'Using the Grid').find('form').then(form => {
       cy.wrap(form).find('[placeholder="Email"]').type(email)
       cy.wrap(form).find('[placeholder="Password"]').type(password)
